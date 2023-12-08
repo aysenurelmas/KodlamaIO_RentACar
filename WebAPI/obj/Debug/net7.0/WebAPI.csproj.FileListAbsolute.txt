@@ -77,3 +77,8 @@ C:\Users\ayse6\source\repos\ReCapProject\WebAPI\obj\Debug\net7.0\refint\WebAPI.d
 C:\Users\ayse6\source\repos\ReCapProject\WebAPI\obj\Debug\net7.0\WebAPI.pdb
 C:\Users\ayse6\source\repos\ReCapProject\WebAPI\obj\Debug\net7.0\WebAPI.genruntimeconfig.cache
 C:\Users\ayse6\source\repos\ReCapProject\WebAPI\obj\Debug\net7.0\ref\WebAPI.dll
+C:\Users\ayse6\source\repos\ReCapProject\WebAPI\bin\Debug\net7.0\Autofac.dll
+C:\Users\ayse6\source\repos\ReCapProject\WebAPI\bin\Debug\net7.0\Autofac.Extensions.DependencyInjection.dll
+C:\Users\ayse6\source\repos\ReCapProject\WebAPI\bin\Debug\net7.0\Autofac.Extras.DynamicProxy.dll
+C:\Users\ayse6\source\repos\ReCapProject\WebAPI\bin\Debug\net7.0\Castle.Core.dll
+C:\Users\ayse6\source\repos\ReCapProject\WebAPI\bin\Debug\net7.0\FluentValidation.dll

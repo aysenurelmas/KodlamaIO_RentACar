@@ -1,6 +1,7 @@
 ﻿using Business.Abstract;
 using Business.Constants;
 using Core.DataAccess;
+using Core.Utilities.Business;
 using Core.Utilities.Result;
 using DataAccess.Abstract;
 using DataAccess.Concrete.EntityFramework;
@@ -16,26 +17,24 @@ namespace Business.Concrete
     public class CustomerManager : ICustomerService
     {
         ICustomerDal _customerDal;
+        IUserService _userService;
 
-        public CustomerManager(ICustomerDal customerDal)
+        public CustomerManager(ICustomerDal customerDal, IUserService userService)
         {
             _customerDal = customerDal;
+            _userService = userService;
         }
 
         public IResult Add(Customer customer)
         {
-            var result = new EfUserDal().Get(u=>u.UserId == customer.UserId);                
-            if (result == null)
+            IResult result = BusinessRules.Run(UserNotFound(customer.UserId));
+            if (result != null)
             {
-                return new ErrorResult(Messages.CustomerInvalıd);
+                return result;
             }
-            else
-            {
-                _customerDal.Add(customer);
-                return new SuccessResult(Messages.Added);
-            }
+            _customerDal.Add(customer);
+            return new SuccessResult(Messages.Added);
 
-            
         }
 
         public IResult Delete(Customer customer)
@@ -58,6 +57,16 @@ namespace Business.Concrete
         {
             _customerDal.Update(customer);
             return new SuccessResult(Messages.Updated);
+        }
+
+        private IResult UserNotFound(int userId)
+        {
+            var result = _userService.GetById(userId).Data;
+            if (result == null)
+            {
+                return new ErrorResult(Messages.UserNotFound);
+            }
+            return new SuccessResult();
         }
     }
 }
