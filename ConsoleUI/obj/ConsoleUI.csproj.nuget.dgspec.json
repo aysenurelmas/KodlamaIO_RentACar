@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ayse6\\source\\repos\\ReCapProject\\ConsoleUI\\ConsoleUI.csproj": {}
+    "C:\\Users\\ayse6\\source\\repos\\RentACar\\ConsoleUI\\ConsoleUI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ayse6\\source\\repos\\ReCapProject\\Business\\Business.csproj": {
+    "C:\\Users\\ayse6\\source\\repos\\RentACar\\Business\\Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ayse6\\source\\repos\\ReCapProject\\Business\\Business.csproj",
+        "projectUniqueName": "C:\\Users\\ayse6\\source\\repos\\RentACar\\Business\\Business.csproj",
         "projectName": "Business",
-        "projectPath": "C:\\Users\\ayse6\\source\\repos\\ReCapProject\\Business\\Business.csproj",
+        "projectPath": "C:\\Users\\ayse6\\source\\repos\\RentACar\\Business\\Business.csproj",
         "packagesPath": "C:\\Users\\ayse6\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ayse6\\source\\repos\\ReCapProject\\Business\\obj\\",
+        "outputPath": "C:\\Users\\ayse6\\source\\repos\\RentACar\\Business\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ayse6\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,11 +28,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\ayse6\\source\\repos\\ReCapProject\\DataAccess\\DataAccess.csproj": {
-                "projectPath": "C:\\Users\\ayse6\\source\\repos\\ReCapProject\\DataAccess\\DataAccess.csproj"
+              "C:\\Users\\ayse6\\source\\repos\\RentACar\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "C:\\Users\\ayse6\\source\\repos\\RentACar\\DataAccess\\DataAccess.csproj"
               },
-              "C:\\Users\\ayse6\\source\\repos\\ReCapProject\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Users\\ayse6\\source\\repos\\ReCapProject\\Entities\\Entities.csproj"
+              "C:\\Users\\ayse6\\source\\repos\\RentACar\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\ayse6\\source\\repos\\RentACar\\Entities\\Entities.csproj"
               }
             }
           }
@@ -41,6 +41,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -76,18 +81,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\ayse6\\source\\repos\\ReCapProject\\ConsoleUI\\ConsoleUI.csproj": {
+    "C:\\Users\\ayse6\\source\\repos\\RentACar\\ConsoleUI\\ConsoleUI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ayse6\\source\\repos\\ReCapProject\\ConsoleUI\\ConsoleUI.csproj",
+        "projectUniqueName": "C:\\Users\\ayse6\\source\\repos\\RentACar\\ConsoleUI\\ConsoleUI.csproj",
         "projectName": "ConsoleUI",
-        "projectPath": "C:\\Users\\ayse6\\source\\repos\\ReCapProject\\ConsoleUI\\ConsoleUI.csproj",
+        "projectPath": "C:\\Users\\ayse6\\source\\repos\\RentACar\\ConsoleUI\\ConsoleUI.csproj",
         "packagesPath": "C:\\Users\\ayse6\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ayse6\\source\\repos\\ReCapProject\\ConsoleUI\\obj\\",
+        "outputPath": "C:\\Users\\ayse6\\source\\repos\\RentACar\\ConsoleUI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ayse6\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -104,8 +109,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\ayse6\\source\\repos\\ReCapProject\\Business\\Business.csproj": {
-                "projectPath": "C:\\Users\\ayse6\\source\\repos\\ReCapProject\\Business\\Business.csproj"
+              "C:\\Users\\ayse6\\source\\repos\\RentACar\\Business\\Business.csproj": {
+                "projectPath": "C:\\Users\\ayse6\\source\\repos\\RentACar\\Business\\Business.csproj"
               }
             }
           }
@@ -114,6 +119,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -135,18 +145,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\ayse6\\source\\repos\\ReCapProject\\Core\\Core.csproj": {
+    "C:\\Users\\ayse6\\source\\repos\\RentACar\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ayse6\\source\\repos\\ReCapProject\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\ayse6\\source\\repos\\RentACar\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\ayse6\\source\\repos\\ReCapProject\\Core\\Core.csproj",
+        "projectPath": "C:\\Users\\ayse6\\source\\repos\\RentACar\\Core\\Core.csproj",
         "packagesPath": "C:\\Users\\ayse6\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ayse6\\source\\repos\\ReCapProject\\Core\\obj\\",
+        "outputPath": "C:\\Users\\ayse6\\source\\repos\\RentACar\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ayse6\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -169,6 +179,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -191,9 +206,17 @@
               "target": "Package",
               "version": "[11.8.1, )"
             },
+            "Microsoft.AspNetCore.Http.Features": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[7.0.14, )"
+            },
+            "Microsoft.Extensions.Configuration.Binder": {
+              "target": "Package",
+              "version": "[7.0.4, )"
             }
           },
           "imports": [
@@ -212,18 +235,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\ayse6\\source\\repos\\ReCapProject\\DataAccess\\DataAccess.csproj": {
+    "C:\\Users\\ayse6\\source\\repos\\RentACar\\DataAccess\\DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ayse6\\source\\repos\\ReCapProject\\DataAccess\\DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\ayse6\\source\\repos\\RentACar\\DataAccess\\DataAccess.csproj",
         "projectName": "DataAccess",
-        "projectPath": "C:\\Users\\ayse6\\source\\repos\\ReCapProject\\DataAccess\\DataAccess.csproj",
+        "projectPath": "C:\\Users\\ayse6\\source\\repos\\RentACar\\DataAccess\\DataAccess.csproj",
         "packagesPath": "C:\\Users\\ayse6\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ayse6\\source\\repos\\ReCapProject\\DataAccess\\obj\\",
+        "outputPath": "C:\\Users\\ayse6\\source\\repos\\RentACar\\DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ayse6\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -240,8 +263,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\ayse6\\source\\repos\\ReCapProject\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Users\\ayse6\\source\\repos\\ReCapProject\\Entities\\Entities.csproj"
+              "C:\\Users\\ayse6\\source\\repos\\RentACar\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\ayse6\\source\\repos\\RentACar\\Entities\\Entities.csproj"
               }
             }
           }
@@ -250,6 +273,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -277,18 +305,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\ayse6\\source\\repos\\ReCapProject\\Entities\\Entities.csproj": {
+    "C:\\Users\\ayse6\\source\\repos\\RentACar\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ayse6\\source\\repos\\ReCapProject\\Entities\\Entities.csproj",
+        "projectUniqueName": "C:\\Users\\ayse6\\source\\repos\\RentACar\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "C:\\Users\\ayse6\\source\\repos\\ReCapProject\\Entities\\Entities.csproj",
+        "projectPath": "C:\\Users\\ayse6\\source\\repos\\RentACar\\Entities\\Entities.csproj",
         "packagesPath": "C:\\Users\\ayse6\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ayse6\\source\\repos\\ReCapProject\\Entities\\obj\\",
+        "outputPath": "C:\\Users\\ayse6\\source\\repos\\RentACar\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ayse6\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -305,8 +333,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\ayse6\\source\\repos\\ReCapProject\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\ayse6\\source\\repos\\ReCapProject\\Core\\Core.csproj"
+              "C:\\Users\\ayse6\\source\\repos\\RentACar\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\ayse6\\source\\repos\\RentACar\\Core\\Core.csproj"
               }
             }
           }
@@ -315,6 +343,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -336,7 +369,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
         }
       }
     }

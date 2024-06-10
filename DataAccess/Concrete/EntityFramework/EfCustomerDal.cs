@@ -2,10 +2,9 @@
 using DataAccess.Abstract;
 using Entities.Concrete;
 
-namespace DataAccess.Concrete.EntityFramework
-{
-    public class EfCustomerDal : EfEntityRepositoryBase<Customer, ReCapProjectContext>, ICustomerDal
-    {
+namespace DataAccess.Concrete.EntityFramework;
 
-    }
+public class EfCustomerDal : EfEntityRepositoryBase<Customer, RentACarContext>, ICustomerDal
+{
+
 }

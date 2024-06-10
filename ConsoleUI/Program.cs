@@ -9,9 +9,14 @@ namespace ConsoleUI
     {
         static void Main(string[] args)
         {
+
+            object GuidKey = Guid.NewGuid();
+            Console.WriteLine(GuidKey + " " + GuidKey.GetType());
+
+
             //CarTest();
             //UserTest();
-            CustomerTest();
+            //CustomerTest();
             //RentalTest();
         }
 
@@ -23,12 +28,12 @@ namespace ConsoleUI
 
         private static void CustomerTest()
         {
-            CustomerManager customerManager = new CustomerManager(new EfCustomerDal());
-            Console.WriteLine(customerManager.Add(new Customer { UserId = 6, CompanyName = "Kodlama.Io" }).Message);
-            /*foreach (var customer in customerManager.GetAll().Data)
+            CustomerManager customerManager = new CustomerManager(new EfCustomerDal(), new UserManager(new EfUserDal()));
+            //Console.WriteLine(customerManager.Add(new Customer { UserId = 6, CompanyName = "Kodlama.Io" }).Message);
+            foreach (var customer in customerManager.GetAll().Data)
             {
                 Console.WriteLine(customer.CompanyName);
-            }*/
+            }
         }
 
         private static void UserTest()
